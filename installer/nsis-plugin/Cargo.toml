@@ -1,0 +1,19 @@
+[package]
+name = "image-ranker-nsis-lifetime"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+name = "ImageRankerLifetime"
+crate-type = ["cdylib"]
+
+[dependencies]
+image-ranker-install-lifetime = { path = "../../src-tauri/install-lifetime-core" }
+windows-sys = { version = "=0.61.2", features = ["Win32_Foundation", "Win32_System_LibraryLoader", "Win32_System_Memory"] }
+
+[profile.release]
+panic = "unwind"
+
+[workspace]

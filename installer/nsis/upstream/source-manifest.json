@@ -1,0 +1,58 @@
+{
+  "retrievedAt": "2026-09-30T12:26:16.751Z",
+  "repository": "https://github.com/tauri-apps/tauri",
+  "tag": "tauri-cli-v2.12.0",
+  "revision": "447fa9f3f993fe77724189e355078b38ce20baea",
+  "files": [
+    {
+      "path": "upstream-tag.json",
+      "url": "https://api.github.com/repos/tauri-apps/tauri/git/ref/tags/tauri-cli-v2.12.0",
+      "bytes": 379,
+      "sha256": "d3f1d0938adedc013bc42e51210c5140ad043909402f9119b37818bfcda438a1"
+    },
+    {
+      "path": "upstream-tree.json",
+      "url": "https://api.github.com/repos/tauri-apps/tauri/git/trees/447fa9f3f993fe77724189e355078b38ce20baea?recursive=1",
+      "bytes": 368270,
+      "sha256": "c74e27453b6583040678b03deb4168b03b35291ab0bd14df771d4ac4fe8c44fd"
+    },
+    {
+      "path": "installer.nsi",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/crates/tauri-bundler/src/bundle/windows/nsis/installer.nsi",
+      "bytes": 32061,
+      "sha256": "dabed59013b1d78b879a1a85bc7f2eed2993b33a9a90cdabe5946de3d3950597"
+    },
+    {
+      "path": "utils.nsh",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/crates/tauri-bundler/src/bundle/windows/nsis/utils.nsh",
+      "bytes": 6562,
+      "sha256": "78272bd40b8a783c0ab94e4bcb400fd947ba306a7575f2bbbbccb7478f40447f"
+    },
+    {
+      "path": "LICENSE-APACHE-2.0",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE-APACHE-2.0",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE-MIT",
+      "bytes": 1090,
+      "sha256": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d"
+    },
+    {
+      "path": "upstream-cli-package.json",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/packages/cli/package.json",
+      "bytes": 1888,
+      "sha256": "5cc5edaf48630ec093a93a50e0dc120d91c5bc127f181f76016125f5b30a4aa7"
+    },
+    {
+      "path": "upstream-bundler-Cargo.toml",
+      "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/crates/tauri-bundler/Cargo.toml",
+      "bytes": 2232,
+      "sha256": "fb91dbed67f998cdf99da8cd9b9ce460d782a4f60ee2df9faa83b2376b2705cf"
+    }
+  ],
+  "appliedToApp": false,
+  "qualification": "Exact pinned official source retrieval only; templates unmodified, not compiled/executed."
+}

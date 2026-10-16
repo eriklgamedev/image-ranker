@@ -1,0 +1,19 @@
+{
+  "productName": "Image Ranker Test",
+  "identifier": "local.imageranker.desktop.e2e",
+  "build": {"beforeBuildCommand": "npm run build:e2e"},
+  "app": {
+    "withGlobalTauri": true,
+    "security": {
+      "capabilities": [
+        "main",
+        {
+          "identifier": "desktop-automation",
+          "windows": ["main"],
+          "permissions": ["wdio:default"]
+        }
+      ]
+    }
+  },
+  "bundle": {"active": false}
+}

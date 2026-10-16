@@ -1,0 +1,25 @@
+{
+  "tag": "v311",
+  "revision": "7359413009afd4f0fff472d841fc2f2cc0e0a5f8",
+  "files": [
+    {
+      "file": "pluginapi.h",
+      "url": "https://raw.githubusercontent.com/nsis-dev/nsis/7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/pluginapi.h",
+      "bytes": 3148,
+      "sha256": "7c3e26aca38de6a9b3715266b1fdf27edb263cd4b6f0a27d0c44a014cb9e12f0"
+    },
+    {
+      "file": "exdll.h",
+      "url": "https://raw.githubusercontent.com/nsis-dev/nsis/7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll.h",
+      "bytes": 341,
+      "sha256": "514ae825eaaf55c2e6ea02153d3eb01941f2ea6e4b76142c75e35a9435096947"
+    },
+    {
+      "file": "COPYING",
+      "url": "https://raw.githubusercontent.com/nsis-dev/nsis/7359413009afd4f0fff472d841fc2f2cc0e0a5f8/COPYING",
+      "bytes": 15488,
+      "sha256": "dc0f74a312c08ffc900548a67ae9a3670ed28ad25a3afda1fe0504da16f89361"
+    }
+  ],
+  "qualification": "Upstream ABI reference only; actual bundled host ABI and plugin remain unqualified"
+}

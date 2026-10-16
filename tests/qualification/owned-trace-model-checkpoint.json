@@ -1,0 +1,58 @@
+{
+  "createdAt": "2026-09-30T10:29:32.366Z",
+  "scope": "new isolated qualification tooling only",
+  "checks": {
+    "pureNodeTests": {
+      "passed": 24,
+      "failed": 0,
+      "nativeCaptureQualified": false
+    },
+    "javascriptSyntax": "passed",
+    "powershellParseOnly": "passed",
+    "csharpCompilation": "not run",
+    "AddType": "not run",
+    "ETW": "not run",
+    "GPUCollection": "not run",
+    "appAndDesktop": "not run"
+  },
+  "limitations": [
+    "Current non-administrator Windows token may fail StartTrace/EnableTraceEx2 with native access denied; no automatic elevation or foreign logger cleanup.",
+    "Controller watches exact execution-owner handle; forced controller termination still requires a separately qualified exact-session cleanup supervisor.",
+    "Only offline interpretation tested; ETW structure layouts, provider schemas, process counters, session control and GPU fidelity remain unqualified.",
+    "Per-process terminal maxima are never summed; graphics counters remain sampled attribution."
+  ],
+  "files": [
+    {
+      "path": "tests/qualification/WindowsOwnedTrace.cs",
+      "sha256": "0e6c71997da98282b78d653d59fa228dab5b47a1160a4ce44d3a1dc464ac51ff"
+    },
+    {
+      "path": "tests/qualification/windows-owned-trace.ps1",
+      "sha256": "ab62fe13cffb5e8d85f93e4a5a338dc540ab0ded0089d9d19209d74e49556e06"
+    },
+    {
+      "path": "tests/qualification/windows-trace-gpu.ps1",
+      "sha256": "af3a3d8471dae35c9b4b19a1541b18993e4602e1ae2917f83107d49be3a90d74"
+    },
+    {
+      "path": "tests/qualification/trace-ledger.mjs",
+      "sha256": "8c2be857c50788a8a94108254119776a6d264d4b435c23cbe7c7e8d925de44d7"
+    },
+    {
+      "path": "tests/qualification/trace-ledger.test.mjs",
+      "sha256": "046c7cc39d9d295db7731e3264fcb6c8c1a6243c140023f188c80793875d5130"
+    },
+    {
+      "path": "tests/qualification/trace-evidence.mjs",
+      "sha256": "6f19f5ced45f6a84772b950045e868a7fef32ee4301f6157be2ae3d2a068c682"
+    },
+    {
+      "path": "tests/qualification/trace-evidence.test.mjs",
+      "sha256": "d5a1476d138af0d664fbe8977bfce157fe873ba676075300fe235e34764ec9f9"
+    },
+    {
+      "path": "tests/qualification/owned-trace-notes.md",
+      "sha256": "3201a70fd2339902c5ecafb5b6983a65edf772fc34bf50bf6c9fcd8e90150ffc"
+    }
+  ]
+}

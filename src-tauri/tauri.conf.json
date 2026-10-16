@@ -1,0 +1,6 @@
+{
+  "$schema":"https://schema.tauri.app/config/2", "productName":"Image Ranker", "version":"0.1.0", "identifier":"local.imageranker.desktop",
+  "build":{"beforeDevCommand":"npm run dev","devUrl":"http://localhost:1420","beforeBuildCommand":"npm run build","frontendDist":"../dist"},
+  "app":{"windows":[{"label":"main","title":"Image Ranker","width":1440,"height":940,"minWidth":900,"minHeight":640}],"security":{"csp":"default-src 'self'; img-src 'self' asset: http://asset.localhost blob: data:; style-src 'self' 'unsafe-inline'; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'self'","assetProtocol":{"enable":true,"scope":[]}}},
+  "bundle":{"active":true,"targets":"all","shortDescription":"Local image curation and ranking","category":"Photography"}
+}

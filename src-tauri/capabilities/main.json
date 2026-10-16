@@ -1,0 +1,1 @@
+{"$schema":"../gen/schemas/desktop-schema.json","identifier":"main","description":"Main application window; native services validate all file access.","windows":["main"],"permissions":["core:default"]}

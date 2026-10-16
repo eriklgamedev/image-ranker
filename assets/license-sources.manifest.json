@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "cargo:alloc-stdlib@0.3.0",
+      "repository": "https://github.com/dropbox/rust-alloc-no-stdlib",
+      "revision": "0a81fd6928ea3b33c8cd484aa4575d50ffb98012",
+      "packagePath": "alloc-stdlib",
+      "license": "BSD-3-Clause",
+      "sources": [
+        {
+          "path": "license-sources/dropbox/rust-alloc-no-stdlib/0a81fd6928ea3b33c8cd484aa4575d50ffb98012/LICENSE",
+          "repositoryPath": "LICENSE",
+          "url": "https://raw.githubusercontent.com/dropbox/rust-alloc-no-stdlib/0a81fd6928ea3b33c8cd484aa4575d50ffb98012/LICENSE",
+          "revision": "0a81fd6928ea3b33c8cd484aa4575d50ffb98012",
+          "sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae",
+          "gitBlob": "cd496ba72eb37e83a44958358d1f89a8a28cbc15",
+          "kind": "upstream-notice"
+        }
+      ]
+    },
+    {
+      "id": "cargo:block2@0.6.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+      "packagePath": "crates/block2",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+          "revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:defmt-parser@1.0.0",
+      "repository": "https://github.com/knurling-rs/defmt",
+      "revision": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f",
+      "packagePath": "parser",
+      "license": "MIT OR Apache-2.0",
+      "sources": [
+        {
+          "path": "license-sources/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+          "repositoryPath": "LICENSE-APACHE",
+          "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+          "revision": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f",
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+          "gitBlob": "11069edd79019f7dafbe3138841cf289209270dd",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+          "repositoryPath": "LICENSE-MIT",
+          "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+          "revision": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f",
+          "sha256": "2710a622a896bba67356913d4d0492cab5465f61b2ecce6d880aeb483834fb50",
+          "gitBlob": "e68a7ab37c8accca023db5f1505d48e4375d4324",
+          "kind": "upstream-notice"
+        }
+      ]
+    },
+    {
+      "id": "cargo:dispatch2@0.3.1",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+      "packagePath": "crates/dispatch2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-app-kit@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-app-kit",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-core-foundation@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-core-foundation",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-core-graphics@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-core-graphics",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-encode@4.1.0",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "packagePath": "crates/objc2-encode",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-exception-helper@0.1.1",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "packagePath": "crates/objc2-exception-helper",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-foundation@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-foundation",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-io-surface@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-io-surface",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-quartz-core@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-quartz-core",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2-web-kit@0.3.2",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "packagePath": "framework-crates/objc2-web-kit",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:objc2@0.6.4",
+      "repository": "https://github.com/madsmtm/objc2",
+      "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+      "packagePath": "crates/objc2",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+          "repositoryPath": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "gitBlob": "540ae4c81adb5f64a9f61e222b688880da24300e",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/canonical/MIT/source.html",
+          "url": "https://opensource.org/license/MIT",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "2a80219a7a6cb1c79f8cc88b976663b1e5a5b14b9028369f3558c7d184b53bea",
+          "kind": "linked-license-terms",
+          "license": "MIT",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Zlib/source.html",
+          "url": "https://zlib.net/zlib_license.html",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "d16e1e49584a44abccebc8fc9eda5378ce0e08d25d8fb00d99f7e4c40a84e594",
+          "kind": "linked-license-terms",
+          "license": "Zlib",
+          "referencedBy": "LICENSE.md"
+        },
+        {
+          "path": "license-sources/canonical/Apache-2.0/terms.txt",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "linked-license-terms",
+          "license": "Apache-2.0",
+          "referencedBy": "LICENSE.md"
+        }
+      ],
+      "reviewRequired": "The pinned upstream declaration raises an Apple SDK derived-work licensing caveat. Canonical MIT text includes unfilled copyright placeholders and is supplied as referenced terms, not invented package attribution. Review upstream licensing and SDK distribution obligations before release."
+    },
+    {
+      "id": "cargo:selectors@0.38.0",
+      "repository": "https://github.com/servo/stylo",
+      "revision": "572ecba2d1600e7c3d490586692a209faf703baa",
+      "packagePath": "selectors",
+      "license": "MPL-2.0",
+      "sources": [
+        {
+          "path": "license-sources/servo/stylo/572ecba2d1600e7c3d490586692a209faf703baa/selectors/lib.rs",
+          "repositoryPath": "selectors/lib.rs",
+          "url": "https://raw.githubusercontent.com/servo/stylo/572ecba2d1600e7c3d490586692a209faf703baa/selectors/lib.rs",
+          "revision": "572ecba2d1600e7c3d490586692a209faf703baa",
+          "sha256": "d54c6e13e9e952dac17d209171df8657e3cae93beaddace4906150cdec8d02e9",
+          "gitBlob": "e60fe5be257f03091569b56a149e7c95ab186bfb",
+          "kind": "upstream-source-header"
+        },
+        {
+          "path": "license-sources/canonical/MPL-2.0/source.html",
+          "url": "https://mozilla.org/MPL/2.0/",
+          "revision": "572ecba2d1600e7c3d490586692a209faf703baa",
+          "sha256": "79fefbb5ce750421056e8639e83b055fa97deb02407617d4c0f9d50cfa0cfd32",
+          "kind": "linked-license-terms",
+          "license": "MPL-2.0",
+          "referencedBy": "selectors/lib.rs"
+        }
+      ],
+      "reviewRequired": "No standalone license file exists at the pinned package or ancestor paths. The original MPL-2.0 source notice and explicitly linked canonical terms are preserved. Review covered-source availability and other MPL distribution obligations before release."
+    },
+    {
+      "id": "cargo:tauri-plugin@2.7.0",
+      "repository": "https://github.com/tauri-apps/tauri",
+      "revision": "447fa9f3f993fe77724189e355078b38ce20baea",
+      "packagePath": "crates/tauri-plugin",
+      "license": "Apache-2.0 OR MIT",
+      "sources": [
+        {
+          "path": "license-sources/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE-APACHE-2.0",
+          "repositoryPath": "LICENSE-APACHE-2.0",
+          "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE-APACHE-2.0",
+          "revision": "447fa9f3f993fe77724189e355078b38ce20baea",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "gitBlob": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE-MIT",
+          "repositoryPath": "LICENSE-MIT",
+          "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE-MIT",
+          "revision": "447fa9f3f993fe77724189e355078b38ce20baea",
+          "sha256": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d",
+          "gitBlob": "b08530d59433b3060f4fad8751ac2610c0b0aff3",
+          "kind": "upstream-notice"
+        },
+        {
+          "path": "license-sources/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE.spdx",
+          "repositoryPath": "LICENSE.spdx",
+          "url": "https://raw.githubusercontent.com/tauri-apps/tauri/447fa9f3f993fe77724189e355078b38ce20baea/LICENSE.spdx",
+          "revision": "447fa9f3f993fe77724189e355078b38ce20baea",
+          "sha256": "5e834fe9788c524210deda859c46a550ffa5aa0cba9ea0572f0d81120e97c008",
+          "gitBlob": "4080281f12fc44a831babb7bb4f531aeb070078b",
+          "kind": "upstream-notice"
+        }
+      ]
+    },
+    {
+      "id": "cargo:webview2-com-macros@0.8.1",
+      "repository": "https://github.com/wravery/webview2-rs",
+      "revision": "dffa41a8a46d3f5565eefbff2de57d38d399f158",
+      "packagePath": "crates/callback-macros",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/wravery/webview2-rs/dffa41a8a46d3f5565eefbff2de57d38d399f158/LICENSE",
+          "repositoryPath": "LICENSE",
+          "url": "https://raw.githubusercontent.com/wravery/webview2-rs/dffa41a8a46d3f5565eefbff2de57d38d399f158/LICENSE",
+          "revision": "dffa41a8a46d3f5565eefbff2de57d38d399f158",
+          "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73",
+          "gitBlob": "de9a7e660e173136b351982a34f715af424ff812",
+          "kind": "upstream-notice"
+        }
+      ]
+    },
+    {
+      "id": "cargo:webview2-com-sys@0.39.1",
+      "repository": "https://github.com/wravery/webview2-rs",
+      "revision": "edc2caf886175ccaebe86078c9cfe1ae2a187328",
+      "packagePath": "crates/bindings",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/wravery/webview2-rs/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE",
+          "repositoryPath": "LICENSE",
+          "url": "https://raw.githubusercontent.com/wravery/webview2-rs/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE",
+          "revision": "edc2caf886175ccaebe86078c9cfe1ae2a187328",
+          "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73",
+          "gitBlob": "de9a7e660e173136b351982a34f715af424ff812",
+          "kind": "upstream-notice"
+        }
+      ]
+    },
+    {
+      "id": "cargo:webview2-com@0.39.1",
+      "repository": "https://github.com/wravery/webview2-rs",
+      "revision": "edc2caf886175ccaebe86078c9cfe1ae2a187328",
+      "packagePath": "crates/webview2-com",
+      "license": "MIT",
+      "sources": [
+        {
+          "path": "license-sources/wravery/webview2-rs/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE",
+          "repositoryPath": "LICENSE",
+          "url": "https://raw.githubusercontent.com/wravery/webview2-rs/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE",
+          "revision": "edc2caf886175ccaebe86078c9cfe1ae2a187328",
+          "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73",
+          "gitBlob": "de9a7e660e173136b351982a34f715af424ff812",
+          "kind": "upstream-notice"
+        }
+      ]
+    }
+  ]
+}
